@@ -44,6 +44,7 @@ vec4 rectangle(vec2 uv, vec2 pos, float width, float height, vec3 color) {
  */
 void main()
 {
+  uv[1] = uv[1]*0.25
   vec2 uv = gl_FragCoord.xy;
     
     // Create a rectangle at the center screen with width 2/4 the screen and size 2/4 screen
